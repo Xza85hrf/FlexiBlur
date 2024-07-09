@@ -54,7 +54,7 @@ FlexiBlur is a Python application that allows users to apply various blur effect
 1. Run the application:
 
     ```bash
-    python FlexiBlur.py
+    python gui.py
     ```
 
 2. Use the GUI to:
@@ -70,7 +70,7 @@ FlexiBlur is a Python application that allows users to apply various blur effect
 
 ## File Structure
 
-flexiblur_app.py: Main application file with GUI implementation
+gui.py: Main application file with GUI implementation
 FlexiBlur.py: Core processing functions for applying blur effects
 TestRun.py: Example script for processing a video file
 requirements.txt: List of required Python packages
