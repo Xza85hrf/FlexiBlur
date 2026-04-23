@@ -1,7 +1,9 @@
-opencv-python
-Pillow
-tkinter
-sv_ttk
-moviepy
-tqdm
-numpy
+opencv-python>=4.8.0
+Pillow>=10.0.0
+sv_ttk>=2.6.0
+moviepy>=1.0.3
+tqdm>=4.66.0
+numpy>=1.26.0
+
+# Note: tkinter is part of the Python standard library — no pip install needed.
+# On Debian/Ubuntu install it with: sudo apt install python3-tk
