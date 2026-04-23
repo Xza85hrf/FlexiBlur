@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 import os
 import shutil
-from moviepy.editor import VideoFileClip, AudioFileClip
+from moviepy import VideoFileClip, AudioFileClip
 
 # Check for CUDA availability
 cuda_available = cv2.cuda.getCudaEnabledDeviceCount() > 0

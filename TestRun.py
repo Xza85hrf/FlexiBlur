@@ -1,5 +1,5 @@
 import os
-from moviepy.editor import VideoFileClip  # For handling video files
+from moviepy import VideoFileClip  # For handling video files
 import cv2  # For image processing
 import numpy as np  # For numerical operations
 

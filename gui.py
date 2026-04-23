@@ -18,7 +18,7 @@ import sv_ttk
 import threading
 import logging
 from PIL import Image, ImageTk
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 # Import custom processing functions from FlexiBlur
 from FlexiBlur import process_media_in_parallel, save_processed_images
